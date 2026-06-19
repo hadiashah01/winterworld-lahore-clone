@@ -12,6 +12,15 @@ a {
   color: inherit;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex--column {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
 .footer-main  {
     background-color: #5000B3;
 }
