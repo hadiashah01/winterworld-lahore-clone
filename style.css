@@ -35,9 +35,15 @@ a {
   flex-direction: column;
   flex-wrap: nowrap;
 }
-
+footer {
+  font-size: 0.9vw;
+  font-weight: 500;
+  line-height: 1.5em;
+}
 .footer-main {
   background-color: #5000b3;
+  padding-block: 4vw;
+  padding-inline: 3vw;
 }
 .footer-bar {
   background-color: #ffbc00;
@@ -48,19 +54,19 @@ a {
 footer li,
 .timing-schedule {
   color: #d0d0d0;
-  font-size: 0.6em;
 }
 .brand-text {
   color: #8a8a8a;
-  font-size: 0.54em;
+  font-size: 0.8vw;
 }
 .timing-link {
   color: #ffbc00;
-  font-size: 0.6em;
 }
 footer h2 {
-  font-size: 1.1em;
+  font-size: 1.6vw;
+  font-family: "Maverlo", Sans-serif;
+  font-weight: 400;
 }
-.footer-bar span { 
-    color: black;
+.footer-bar span {
+  color: black;
 }
