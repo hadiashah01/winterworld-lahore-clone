@@ -44,11 +44,15 @@ footer {
   background-color: #5000b3;
   padding-block: 4vw;
   padding-inline: 3vw;
+  gap: 4em;
 }
 .footer-bar {
   background-color: #ffbc00;
   color: #5000b3;
-  font-size: 0.6em;
+  font-family: "Poppins", Sans-serif;
+  font-size: 0.9vw;
+  padding-inline: 3vw;
+  padding-block: 1.8vw;
 }
 
 footer li,
@@ -69,4 +73,11 @@ footer h2 {
 }
 .footer-bar span {
   color: black;
+}
+.footer-main__timing,.footer-main__timing> * {
+  align-items: flex-start;
+}
+
+.footer-main > section {
+  flex: 1 1 27%;
 }
