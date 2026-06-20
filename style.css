@@ -50,20 +50,19 @@ header {
   justify-content: center;
   width: 100%;
   gap: 18em;
-  letter-spacing: -0.1em;
   word-spacing: 0.1em;
   text-transform: uppercase;
 }
 .nav {
   justify-content: center;
-  gap: 3.5em;
-  width: 30%;
-  height: 3em;
+  gap: 0.3vw;
+  width: 32vw;
+  height: 3.6vw;
   border-radius: 3em;
-  background-color: #7a7a7a;
+  background-color: rgba(122, 122, 122,0.9);
   font-weight: 900;
   color: #ffffff;
-  font-size: 0.9em;
+  font-size: 0.75rem;
 }
 .cta__btn {
   border: none;
@@ -78,6 +77,22 @@ header {
   letter-spacing: -0.1em;
   word-spacing: 0.1em;
   text-transform: uppercase;
+}
+.nav__list-item > a {
+  height: 90%;
+  border-radius: 2em;
+  justify-content: center;
+  padding: 1.1vw 2.2vw 0.9vw 2.2vw;
+}
+.list-item-first > a {
+  background-color: #5000b3;
+}
+
+.nav__list-item {
+  flex-shrink: 0;
+}
+.brand__logo> img {
+  width:8vw;
 }
 footer {
   font-size: 0.9vw;
