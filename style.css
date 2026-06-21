@@ -41,7 +41,7 @@ header {
   height: 760px;
   justify-content: space-around;
   background-image: url(./assets/hero-img-01.jpg);
-  background-size: contain;
+  background-size: cover;
   justify-content: center;
   align-items: flex-start;
 }
@@ -100,7 +100,7 @@ header {
   justify-content: center;
 }
 .explore-card {
-  height: 84vh;
+  height: 40vw;
   border: 1px solid #b2b2b2;
   width: 30vw;
 }
@@ -115,6 +115,42 @@ header {
 }
 .explore-card__image > .carnival-logo {
   width: 7vw;
+}
+.explore-card__title {
+  color: #404040;
+  font-size: 1.3vw;
+  font-weight: 800;
+}
+.explore-card__link {
+  height: 14%;
+  padding: 1vw;
+  width: 100%;
+  justify-content: space-between;
+}
+.explore-card__icon {
+  color: #55595c;
+  height: 1.5vw;
+}
+.gallery {
+  display: flex;
+  padding: 7vw 3vw;
+  background-color: #b7b2bd;
+  flex-wrap: wrap;
+  height: 50vw;
+}
+.gallery__item {
+  background-color: #5000b3;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 15vw;
+  height: 14vw;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.gallery__item-wide {
+  flex-grow: 2;
+  background-color: rgb(182, 104, 2);
+  flex-basis: 31vw;
 }
 footer {
   font-size: 0.9vw;
