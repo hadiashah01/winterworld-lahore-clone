@@ -158,6 +158,26 @@ header {
   background-color: rgb(182, 104, 2);
   flex-basis: 31vw;
 }
+.cart {
+  height: 4rem;
+  width: 4rem;
+  border: 1px solid rgba(128, 128, 128,0.3);
+  border-radius: 50%;
+  
+}
+.count-item {justify-content: center;
+  background-color: red;
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+  font-size: .8em;
+  font-weight: 600;
+  align-self: self-start;
+  margin: -5px 0 -3px 0;
+}
+.cart-__icon {margin-left: -16px;
+  fill: #5000b3;
+}
 footer {
   font-size: 0.9vw;
   font-weight: 500;
