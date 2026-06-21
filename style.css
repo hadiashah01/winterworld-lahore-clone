@@ -134,9 +134,8 @@ header {
 .gallery {
   display: flex;
   padding: 7vw 3vw;
-  background-color: #b7b2bd;
   flex-wrap: wrap;
-  height: 50vw;
+  height: 56vw;
 }
 .gallery__item {
   background-color: #5000b3;
@@ -145,9 +144,15 @@ header {
   flex-basis: 15vw;
   height: 14vw;
   flex-wrap: wrap;
-  border: 1px solid black;
+  background-size: cover;
 }
-.gallery__item-wide {
+.gallery__item--blue {
+  background-color: #006eb8;
+}
+.gallery__item--yellow {
+  background-color: #ffbc00;
+}
+.gallery__item--wide {
   flex-grow: 2;
   background-color: rgb(182, 104, 2);
   flex-basis: 31vw;
