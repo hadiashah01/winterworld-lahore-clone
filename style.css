@@ -145,6 +145,7 @@ header {
   height: 14vw;
   flex-wrap: wrap;
   background-size: cover;
+  padding: 2vw;
 }
 .gallery__item--blue {
   background-color: #006eb8;
