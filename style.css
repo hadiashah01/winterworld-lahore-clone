@@ -146,6 +146,9 @@ header {
   flex-wrap: wrap;
   background-size: cover;
   padding: 2vw;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
 }
 .gallery__item--blue {
   background-color: #006eb8;
@@ -157,6 +160,10 @@ header {
   flex-grow: 2;
   background-color: rgb(182, 104, 2);
   flex-basis: 31vw;
+}
+.gallery__item-svg {
+  aspect-ratio: 1/1;
+  height: 100%;
 }
 .cart {
   height: 5.2vw;
@@ -294,10 +301,13 @@ footer h2 {
   }
   .gallery__item {
     flex-basis: 25vw;
-    min-height: 200px;
+    min-height: 300px;
   }
   .gallery__item--wide {
     flex-basis: 50vw;
+  }
+  .gallery__item-svg{
+     height: 88%;
   }
 }
 @media (max-width: 767px) {
@@ -332,6 +342,6 @@ footer h2 {
     flex-basis: 50%;
   }
   .gallery__item--wide {
-    flex-basis: 100vw;
+    flex-basis: 90vw;
   }
 }
