@@ -49,7 +49,7 @@ header {
 .header__container {
   padding-block: 1.4vw;
   justify-content: center;
-  width: 90%;
+  width: 100%;
   gap: 20vw;
   word-spacing: 0.1em;
   text-transform: uppercase;
@@ -253,7 +253,7 @@ footer h2 {
   max-height: 14vw;
   flex-wrap: wrap;
   column-gap: 1.6em;
-  row-gap: 1em;
+  row-gap: 0.5em;
   margin-top: 2em;
 }
 
@@ -308,7 +308,9 @@ footer h2 {
   header {
     background-image: url(./assets/hero-img-mobile.jpg);
     height: 1500px;
+    max-width: 100%;
   }
+
   .nav,
   .cta__btn {
     display: none;
@@ -335,6 +337,39 @@ footer h2 {
   }
   .gallery__item-svg {
     height: 88%;
+  }
+  footer {
+    font-size: 9px;
+  }
+  footer h2 {
+    font-size: 16px;
+  }
+  .footer-main {
+    gap: 5%;
+    padding-bottom: 7px;
+  }
+  .footer-main__links ul {
+    max-height: 115px;
+  }
+  .footer-main__timing {
+    padding-inline: 0;
+  }
+  .brand-text {
+    font-size: 9px;
+  }
+  .footer-main__brand {
+    line-height: 1.6em;
+    padding: 2%;
+    min-width: 35%;
+    min-height: 200px;
+  }
+  .brand-container {
+    justify-content: start;
+    gap: 12%;
+    margin-bottom: 3%;
+  }
+  .brand-container img {
+    width: 110%;
   }
 }
 @media (max-width: 767px) {
@@ -389,9 +424,6 @@ footer h2 {
   .footer-main__links ul {
     max-height: 175px;
   }
-  .footer-main__timing {
-    padding-inline: 0;
-  }
   .brand-text {
     font-size: 10px;
   }
@@ -404,11 +436,7 @@ footer h2 {
   .brand-container {
     gap: 20%;
     max-width: 100%;
-    justify-content: start;
     padding-left: 5%;
-  }
-  .brand-container img {
-    width: 230%;
   }
   .brand-container img {
     width: 280%;
