@@ -247,7 +247,7 @@ footer h2 {
 }
 
 .footer-main__links ul {
-  max-height: 29vh;
+  max-height: 14vw;
   flex-wrap: wrap;
   column-gap: 1.6em;
   row-gap: 1em;
@@ -259,7 +259,7 @@ footer h2 {
   padding-block: 1vw;
   padding-inline: 2vw;
   border-radius: 20px;
-  flex: 1 1 40%;
+  flex: 2 1 40%;
   max-width: 40%;
   margin-left: 3em;
 }
@@ -294,6 +294,13 @@ footer h2 {
   background-color: #ffbc00;
   margin-bottom: -2.6em;
 }
+
+@media (max-width: 1024px) {
+  .nav,
+  .cta__btn {
+    display: none;
+  }
+}
 @media (max-width: 880px) {
   .gallery {
     padding-top: 0;
@@ -306,8 +313,45 @@ footer h2 {
   .gallery__item--wide {
     flex-basis: 50vw;
   }
-  .gallery__item-svg{
-     height: 88%;
+  .gallery__item-svg {
+    height: 88%;
+  }
+  footer {
+    font-size: 13px;
+  }
+  footer h2 {
+    font-size: 18px;
+  }
+  .footer-main {
+    flex-direction: column;
+  }
+  .footer-main > section {
+    width: 100%;
+    margin-inline: 0;
+  }
+  .footer-main__links ul {
+    max-height: 175px;
+  }
+  .footer-main__timing {
+    padding-inline: 0;
+  }
+  .brand-text {
+    font-size: 10px;
+  }
+  .footer-main__brand {
+    min-width: 90vw;
+    min-height: 160px;
+    padding: 3% 7%;
+    line-height: 1.3em;
+  }
+  .brand-container {
+    gap:20%;
+    max-width: 100%;
+    justify-content: start;
+    padding-left: 5%;
+  }
+  .brand-container img {
+    width: 280%;
   }
 }
 @media (max-width: 767px) {
