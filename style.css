@@ -181,17 +181,21 @@ header {
 .count-item {
   justify-content: center;
   background-color: red;
-  height: 1.6vw;
-  width: 1.6vw;
+  height: 1.8vw;
+  width: 3vw;
   border-radius: 50%;
-  font-size: 0.8vw;
+  font-size: 1vw;
   font-weight: 600;
   align-self: self-start;
   margin: -5px 0 -3px 0;
 }
-.cart-__icon {
-  margin-left: -1vw;
+.cart__icon {
+  position: relative;
+  right: 0.7vw;
+  top: 0.3vw;
   fill: #5000b3;
+  height: 7vw;
+  width: 7vw;
 }
 footer {
   font-size: 0.9vw;
@@ -371,6 +375,23 @@ footer h2 {
   .brand-container img {
     width: 110%;
   }
+  .cart {
+    height: 50px;
+    width: 50px;
+  }
+  .cart__icon {
+    height: 44px;
+    width: 44px;
+    position: relative;
+    right: 8px;
+    top: 3px;
+  }
+  .count-item {
+    width: 20px;
+    height: 18px;
+    font-size: 0.6em;
+    border: 1px solid rgba(145, 83, 83, 0.6);
+  }
 }
 @media (max-width: 767px) {
   .explore__cards {
@@ -408,14 +429,16 @@ footer h2 {
   }
 
   footer {
-    font-size: 13px;
+    font-size: 9px;
   }
   footer h2 {
-    font-size: 18px;
+    font-size: 14px;
   }
   .footer-main {
     flex-direction: column;
     padding-block: 70px 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
   }
   .footer-main > section {
     width: 100%;
@@ -424,21 +447,19 @@ footer h2 {
   .footer-main__links ul {
     max-height: 175px;
   }
-  .brand-text {
-    font-size: 10px;
-  }
   .footer-main__brand {
-    min-width: 90vw;
-    min-height: 160px;
-    padding: 3% 7%;
-    line-height: 1.3em;
+    min-width: 94vw;
+    padding-inline: 6%;
+    line-height: 1.6em;
+    margin-block: 40px 50px;
   }
   .brand-container {
     gap: 20%;
     max-width: 100%;
-    padding-left: 5%;
+    justify-content: center;
+    margin-bottom: 0px;
   }
   .brand-container img {
-    width: 280%;
+    width: 180%;
   }
 }
