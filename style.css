@@ -200,11 +200,11 @@ header {
 footer {
   font-size: 0.9vw;
   font-weight: 500;
-  line-height: 1.5em;
+  line-height: 1.3em;
 }
 .footer-main {
   background-color: #5000b3;
-  padding-block: 4vw;
+  padding-block: 4vw 0;
   padding-inline: 3vw;
   align-items: flex-start;
   justify-content: center;
@@ -224,7 +224,7 @@ footer li,
 }
 .brand-text {
   color: #8a8a8a;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
   text-transform: capitalize;
   text-align: center;
   margin-block: 1em;
@@ -233,7 +233,7 @@ footer li,
   color: #ffbc00;
 }
 footer h2 {
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   font-family: "Maverlo", Sans-serif;
   font-weight: 800;
   letter-spacing: -0.1em;
@@ -251,30 +251,41 @@ footer h2 {
 .footer-main__timing {
   flex: 1 1 20%;
   padding-left: 3em;
+  gap: 15px;
 }
 
 .footer-main__links ul {
-  max-height: 14vw;
+  max-height: 12vw;
   flex-wrap: wrap;
-  column-gap: 1.6em;
+  column-gap: 5em;
   row-gap: 0.5em;
   margin-top: 2em;
 }
 
 .footer-main__brand {
   background-color: white;
-  padding-block: 1vw;
+  padding-block: 0.5vw;
   padding-inline: 2vw;
   border-radius: 20px;
   flex: 2 1 40%;
+  height: 75%;
+}
+.outer-brand {
+  background-image: url(./assets/bg-brand-bottom.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 110% auto;
+  height: 25vw;
   max-width: 40%;
   margin-left: 3em;
+  padding-right: 2vw;
 }
 .brand {
   width: 8vw;
 }
 .footer-main__brand img {
   width: 100%;
+  margin-block: 1vw;
 }
 .brand-container {
   justify-content: center;
@@ -310,7 +321,7 @@ footer h2 {
   display: none;
 }
 .hamburger-menu img {
-  width:25px;
+  width: 25px;
   position: relative;
   right: 8px;
   bottom: 7px;
@@ -371,7 +382,7 @@ footer h2 {
   .footer-main__brand {
     line-height: 1.6em;
     padding: 2%;
-    min-width: 35%;
+    margin-left: 0;
     min-height: 200px;
   }
   .brand-container {
@@ -400,7 +411,7 @@ footer h2 {
     font-size: 0.6em;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .explore__cards {
     display: block;
     width: 93.5%;
