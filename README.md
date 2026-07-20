@@ -6,6 +6,7 @@ A responsive front-end clone of the **Winter World Pakistan** website, built to 
 
 ## Table of Contents
 
+- [Live Demo](#live-demo)
 - [Features](#features)
 - [Built With](#built-with)
 - [Project Files](#project-files)
