@@ -15,11 +15,18 @@ A responsive front-end clone of the **Winter World Pakistan** website, built to 
 - [Learning Objectives](#learning-objectives)
 - [Future Improvements](#future-improvements)
 
+
+## Live Demo
+
+Click the preview image below to visit the live interactive demo:
+
+[![Winter World Lahore Clone Live Webpage Preview](./src/assets/preview-img.png)](https://hadiashah01.github.io/winterworld-lahore-clone/)
+
   
 ## Features
 
 * Responsive desktop, tablet, and mobile layouts
-* Hero section with responsive background images
+* Hero section with responsive backnd images
 * Navigation bar with mobile hamburger menu
 * Explore cards for different attractions
 * Flexible gallery layout using Flexbox
