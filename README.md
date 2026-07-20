@@ -21,7 +21,7 @@ A responsive front-end clone of the **Winter World Pakistan** website, built to 
 
 Click the preview image below to visit the live interactive demo:
 
-[![Winter World Lahore Clone Live Webpage Preview](./src/assets/preview-img.png)](https://hadiashah01.github.io/winterworld-lahore-clone/)
+[![Winter World Lahore Clone Live Webpage Preview](./assets/preview-img.png)](https://hadiashah01.github.io/winterworld-lahore-clone/)
 
   
 ## Features
